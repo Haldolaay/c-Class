@@ -1,0 +1,3 @@
+C:/Users/hamza/Desktop/cClass/NumberTable/cmake-build-debug/CMakeFiles/NumberTable.dir
+C:/Users/hamza/Desktop/cClass/NumberTable/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hamza/Desktop/cClass/NumberTable/cmake-build-debug/CMakeFiles/rebuild_cache.dir
