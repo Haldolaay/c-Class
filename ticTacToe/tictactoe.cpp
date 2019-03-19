@@ -2,6 +2,7 @@
 // tictactoe.cpp
 // -----------------------------------------------------------------------
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
 // -----------------------------------------------------------------------
@@ -16,7 +17,7 @@ const char PLAYER_O = 'O';
 
 // -----------------------------------------------------------------------
 // Function prototypes
-
+void Ai(int &r, int &c,const char board[][COLS]);// AI function
 void initBoard(char board[][COLS]);
 void showBoard(char board[][COLS]);
 void makeMove(char board[][COLS], char player);
@@ -28,7 +29,7 @@ bool gameOver(char board[][COLS]);
 int main() {
     char board[ROWS][COLS];
     char currentPlayer = PLAYER_X;
-
+    srand(time(NULL));// used for Ai
     initBoard(board);
     showBoard(board);
 
@@ -73,30 +74,42 @@ void makeMove(char board[][COLS], char player){
     char row,col;
     int r,c;
     while(1){
-        cout << "Player " << player << "  enter your move: ";
-        cin >> row >> col;
+        if (player =='O'){
+            Ai(r,c,board);
+            if (board[r][c] ==EMPTY){
+                cout<<"Player O's Turn!"<<endl;
+                board[r][c] = player;
+                break;
+            }else{
+                continue;
+            }
+        }
+        else if (player =='X'){
 
 //if ( ( row =='a' || row =='b' || row =='c' )&& ( col >= 1 && col <= 3) )
 //
-        if (  row =='a' || row =='b' || row =='c' ){
-            switch(row){
-                case 'a' : r = 0 ; break;
-                case 'b':  r = 1 ; break;
-                case 'c':  r = 2 ; break;
-            }
-            if ( col == '1' || col == '2' || col == '3') {
-                switch(col){
-                    case '1': c = 0 ; break;
-                    case '2': c = 1 ; break;
-                    case '3': c = 2 ; break;
+            cout << "Player " << player << "  enter your move: ";
+            cin >> row >> col;
+            if (  row =='a' || row =='b' || row =='c' ){
+                switch(row){
+                    case 'a' : r = 0 ; break;
+                    case 'b':  r = 1 ; break;
+                    case 'c':  r = 2 ; break;
                 }
-                if (board[r][c] ==EMPTY){
-                    board[r][c] = player;
-                    break;
-                }else{continue;}
-            }else{continue;}
-        }else{continue;}
+                if ( col == '1' || col == '2' || col == '3') {
+                    switch(col){
 
+                        case '1': c = 0 ; break;
+                        case '2': c = 1 ; break;
+                        case '3': c = 2 ; break;
+                    }
+                    if (board[r][c] ==EMPTY){
+                        board[r][c] = player;
+                        break;
+                    }
+                }
+            }
+        }
 
     }
 }
@@ -180,7 +193,16 @@ bool gameOver(char board[][COLS]){
 
 
 }
+//working AI
+void Ai(int &r, int &c, const char board[][COLS]){
+
+    r= rand()%3;
+    c= rand()%3;
 
 
 
-// -----------------------------------------------------------------------
+
+
+
+}
+//-----------------------------------------------------------------------
