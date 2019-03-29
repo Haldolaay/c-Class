@@ -53,7 +53,6 @@ int main() {
 // Function implementations
 
 
-// TODO (1):  implement binarySearch
 int binarySearch(string a[], int size, string key){
     int low = 0;
     int high = size - 1;
@@ -67,7 +66,7 @@ int binarySearch(string a[], int size, string key){
     return -1;
 }
 
-// TODO (2):  implement insertionSort
+
 void insertionSort(string a[], int size){
     int i, j;
     string temp;
@@ -83,7 +82,7 @@ void insertionSort(string a[], int size){
 
 }
 
-// TODO (3):  implement readDictionary
+
 /*
  - Open an ifstream using fileName.
  - Verify that the file opened (if not, return -1).
@@ -102,7 +101,7 @@ int readDictionary(string a[], string fileName){
     return i;
 }
 
-// TODO (4):  implement writeDictionary
+
 /*
  - Open an ofstream using fileName:
     - Use the default behavior of deleting the existing file,
@@ -120,7 +119,7 @@ void writeDictionary(string a[], int size, string fileName){
     ofs.close();
 }
 
-// TODO (5):  implement updateDictionary
+
 /*
  - Use `binarySearch` to search `a` for `s`
  - If `s` is NOT found at a valid index:
@@ -144,7 +143,7 @@ int updateDictionary(string a[], int size, string s, string fileName){
 
 }
 
-// TODO (6):  implement outputMatches
+
 /*
  - loop through each element of `a`
     - Call `.find()` on each element, searching for `s`
