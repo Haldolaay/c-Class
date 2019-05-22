@@ -17,8 +17,11 @@ public:
 
     int size();
 
+    int capacity();
+
     void reserve(int n);
 
+    void push_back(int x);
 
 private:
     int sz;

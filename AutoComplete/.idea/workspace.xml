@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b82d85e7-70c3-4126-90a0-5610d535bb41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NumberTable/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NumberTable/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c-Class" beforeDir="false" afterPath="$PROJECT_DIR$/../c-Class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -26,11 +25,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor" />
@@ -68,17 +62,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../monster-battle.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="9180">
               <caret line="340" column="25" selection-start-line="340" selection-start-column="25" selection-end-line="340" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../caesarCipher/caesar-cipher.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="161" column="34" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
+            <state relative-caret-position="4428">
+              <caret line="164" column="27" selection-start-line="164" selection-start-column="27" selection-end-line="164" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MonsterBattle2/monsterdb.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/monsterdb.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MonsterFile/monsterdb.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6291">
+              <caret line="233" column="40" selection-start-line="233" selection-start-column="40" selection-end-line="233" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../MonsterFile/monsterdb (1).c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="197" column="76" selection-start-line="197" selection-start-column="76" selection-end-line="197" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -95,12 +125,12 @@
         <option value="$PROJECT_DIR$/../MonsterBattle/monster-battle.cpp" />
         <option value="$PROJECT_DIR$/../../monster-battle.cpp" />
         <option value="$PROJECT_DIR$/../caesarCipher/caesar-cipher.c" />
+        <option value="$PROJECT_DIR$/../MonsterFile/monsterdb.c" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="10" />
-    <option name="y" value="150" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="28" />
     <option name="width" value="1346" />
     <option name="height" value="585" />
   </component>
@@ -113,7 +143,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../caesarCipher/caesar-cipher.c" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../t" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -150,21 +180,23 @@
       <workItem from="1553493108044" duration="14751000" />
       <workItem from="1554446045017" duration="7378000" />
       <workItem from="1554931982833" duration="596000" />
-      <workItem from="1554943784512" duration="7596000" />
+      <workItem from="1554943784512" duration="8195000" />
+      <workItem from="1556167569519" duration="1273000" />
+      <workItem from="1556873358514" duration="1338000" />
+      <workItem from="1557095701023" duration="3248000" />
+      <workItem from="1557464837569" duration="646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30321000" />
+    <option name="totallyTimeSpent" value="37425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24281392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
@@ -177,6 +209,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -218,15 +251,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../monster-battle.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="9180">
           <caret line="340" column="25" selection-start-line="340" selection-start-column="25" selection-end-line="340" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../caesarCipher/caesar-cipher.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="161" column="34" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
+        <state relative-caret-position="4428">
+          <caret line="164" column="27" selection-start-line="164" selection-start-column="27" selection-end-line="164" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MonsterBattle2/monsterdb.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/monsterdb.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MonsterFile/monsterdb.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6291">
+          <caret line="233" column="40" selection-start-line="233" selection-start-column="40" selection-end-line="233" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MonsterFile/monsterdb (1).c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="197" column="76" selection-start-line="197" selection-start-column="76" selection-end-line="197" selection-end-column="76" />
         </state>
       </provider>
     </entry>
