@@ -28,6 +28,6 @@ int main() {
     return 0;
   }
   unsigned short value = (unsigned short)userInput;
-  std::cout<<toBinary(value)<<std::endl;
+  std::cout<<value<< " => \""<<toBinary(value)<<"\""<<std::endl;
   return 1;
 }
