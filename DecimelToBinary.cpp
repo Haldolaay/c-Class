@@ -31,3 +31,53 @@ int main() {
   std::cout<<value<< " => \""<<toBinary(value)<<"\""<<std::endl;
   return 1;
 }
+// another approach
+#include <iostream>
+// int powerResult(int num, int power){
+//   int result = num;
+//   for(int i = power; i>1 ; i--){
+//     result *= num;
+//   }
+//   return result;
+// }
+int main() {
+    // method is num - (2 * (num/2))
+    int number;
+    std::cout << "Enter an integer [0 to 65535]:" << std::endl;
+    std::cin >> number;
+    std::string result = "";
+    int reminder;
+    int power = 2;
+    std::string divisionResult = "";
+    for (int i = 15; i >= 0; i--) {
+        for (int k = i; k > 1; k--) {
+            power *= power;
+        }
+        int comparisionNumber = power - 1;
+        // std::cout<<comparisionNumber<<std::endl;
+        if (comparisionNumber > number) {
+            result += "0";
+            // std::cout<<result<<std::endl;
+        }
+        else {
+            reminder = number - (2 * (number / 2));
+            // std::cout<<reminder<<std::endl;
+            number = number / 2;
+            if (reminder > 0) {
+                divisionResult += "1";
+
+            }
+            else {
+                divisionResult += "0";
+            }
+
+        }
+        power = 2;
+    }
+
+    for (int j = divisionResult.size(); j >= 0; j--) {
+        result += divisionResult[j];
+    }
+
+    std::cout << result << std::endl;
+}
